@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include dheeraj_app *.css
+recursive-include dheeraj_app *.csv
+recursive-include dheeraj_app *.html
+recursive-include dheeraj_app *.ico
+recursive-include dheeraj_app *.js
+recursive-include dheeraj_app *.json
+recursive-include dheeraj_app *.md
+recursive-include dheeraj_app *.png
+recursive-include dheeraj_app *.py
+recursive-include dheeraj_app *.svg
+recursive-include dheeraj_app *.txt
+recursive-exclude dheeraj_app *.pyc
